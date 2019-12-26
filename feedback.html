@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+       <title> Feedback </title>
+	<!-- 
+	This is the html file for WCD webpage, feedback page
+	File name: feedback.html
+	Name: Foo Tze Ern, Shirlyn
+	Admission number: 1714823
+	Class: DBIT/FT/1A/01 
+	-->
+	<meta charset="utf-8">
+       <meta name="viewport" content="width=device-width">
+	   <script src="modernizr.custom.62074.js"></script>
+	   <link rel="stylesheet" href="styles.css">
+	   <link rel="shortcut icon" href="images/favicon.ico">
+	   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+	</head>
+	
+	<body>
+	<div class="container">
+	    <p class="skipnavigation"><a href=".contentstart">Skip navigation</a></p>
+		  
+	    <header>
+		  <h1>RENT BOARD GAMES</h1>
+		  <a href="index.html"><img id="logo" src="images/logoedited3.png" width="80" height="80" alt="Rent BG"></a>
+	    </header>
+		
+		<nav class="sitenavigation">
+		<div class="navigation-menu-button">
+		<img src="images/menuedited.png" width="63" height="57" alt="Click to view navigation menu">
+	    </div>
+		  <ul>
+		   <li><a href="index.html"> Home </a></li>
+		   <li><a href="aboutus.html"> About Us </a></li>
+		   <li><a href="rent2.html"> Rent Now </a></li>
+		   <li><a href="instructions.html"> Instructions </a></li>
+		   <li><a href="faq.html"> FAQs </a></li> 
+		   <li><a href="feedback.html"> Feedback </a></li>
+		   <li><a href="contactus.html"> Contact Us </a></li>
+		  </ul>
+	    </nav>
+		
+		<h2 class="contentstart feedbackh2"> Feedback </h2>
+		<form class="contact-form" action="results.html">
+			<fieldset class="contactinfo">
+				<legend> Contact Information</legend>
+				<label for="nameinput">
+					Name
+					<input type="text" name="name" id="nameinput" placeholder="First name and Last name" required>
+				</label>
+				<label for="emailinput">
+					Email
+					<input type="email" name="email" id="emailinput" placeholder="address@example.com" required>
+				</label>					
+			</fieldset>
+			
+			<fieldset class="feedbackmsg">
+				<legend> Message </legend>
+				<label for="feedback">
+					Feedback message
+					<textarea name="feedback" required id="feedback" rows="4" cols="55">
+					</textarea>
+				</label>
+			</fieldset>
+			<fieldset class="submitbutton">
+				<input type="submit" id="submit" value="Submit">
+			</fieldset>
+		</form>
+		
+	<footer id="aboutusfooter">
+	    <p> Rent BG </p>
+		<p> 6775 1133 </p>
+	    <p> 500 Dover Road Singapore 139651</p>
+	</footer>
+	</div>	
+	<script src="script3.js"></script>
+	</body>
+</html>

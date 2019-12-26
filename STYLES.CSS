@@ -1,0 +1,818 @@
+/*reset styles*/
+article, body, div, header, footer, form, fieldset, legend, label, input, h1, h2, h3, img, li, nav, p, ul, figure, figcaption, table, textarea, th, tr, td, section {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/*default styles*/
+body {
+	background-color: #ffffff;
+	max-width: 1280px;
+	font-size: 16px;
+}
+h2{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Zilla Slab', serif;
+}
+#submit {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1%;
+	border-radius: 15px;
+	margin-top: 2%;
+	margin-left: 20%;
+}
+.submitbutton {
+	display: none;
+}
+/*header styles*/
+header {
+	max-width: 100%;
+	background-color: #ccebff;
+}
+h1{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #000000;
+	/*font-family: 'Indie Flower', cursive;*/
+	font-family: 'Poppins', sans-serif;
+}
+img#logo {
+	position: absolute;
+	top: 0%;
+}
+/*styles for navigation bar */
+div.navigation-menu-button {
+	display: none;
+}
+nav.sitenavigation{
+	max-width: 100%;
+	text-align: center;
+	background-color: #000000;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-bottom: 1%;
+}
+nav.sitenavigation li {
+	display: inline-block;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 1%;
+	font-size: 1.3em;
+	padding: 0.3%;
+}
+nav.sitenavigation a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+nav.sitenavigation a:visited {
+	color: #ffffff;
+}
+nav.sitenavigation a:active {
+	color: #000000;
+	background-color: #ffffff;
+	position: relative;
+	bottom: 1%;
+	left: 1%;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   background-color: #ffffff;
+   color: #000000;
+}
+/*skipnavigation styles*/
+p.skipnavigation a {
+	position: absolute;
+	left: -10000px;
+}
+p.skipnavigation a:focus {
+	color: #34180f;
+	background-color: #fffff0;
+	top: 0.2em;
+	left: 0.4em;
+	/*z-index: 2;*/
+}
+/*index styles*/
+.pg1h2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-family: 'Zilla Slab', serif;
+	text-align: center;
+	font-size: 2.5em;
+}
+p#learnmore {
+	background-color: #ccccff;
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Fresca', sans-serif;
+	width: 78%;
+	/*padding-top: 1%;*/
+	padding: 1%;
+	margin-left: 5%;
+	text-align: center;
+	font-size: 1.7em;
+	margin-left: 10%;
+}
+.bestsellerpg1 {
+	float: left;
+	margin-left: 10%;
+	margin-right: 1%;
+}
+p#bestsellerrisk {
+	padding-top: 6%;
+	padding-left: 3%;
+	padding-right: 2%;
+	padding-bottom: 4.6%;
+	background-color: #ccccff;
+	font-family: 'Fresca', sans-serif;
+	width: 75%;
+	margin-left: 5%;
+	text-align: center;
+	font-size: 1.7em;
+	margin-left: 10%;
+	display: block;
+}
+p#bestsellermonopoly {
+	width: 57.5%;
+	display: block;
+	margin-left: 30.5%;
+	padding-top: 5%;
+	padding-bottom: 3.2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #ccccff;
+	font-family: 'Fresca', sans-serif;
+	text-align: center;
+	font-size: 1.7em;
+}
+/*aboutus styles*/
+.renth2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+section.who {
+	margin-top: 4%;
+	padding-bottom: 0.2%;
+	background-color: #ccccff;
+	width: 90%;
+	margin-left: 5%;	
+}
+section.who h2 {
+	margin-bottom: 2%;
+	padding-top: 1%;
+}
+section.who p {
+	font-size: 1.5em;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-bottom: 1%;
+	font-family: 'Fresca', sans-serif;
+	display: block;
+	width: 90%;
+}
+section.who p:first-letter {
+	font-size: 2em;
+	/*font-weight: bold;*/
+	line-height: 70%;
+}
+section.why {
+	margin-top: 4%;
+	background-color: #e6e6ff;
+	padding-bottom: 0.5%;
+	margin-bottom: 4%;
+	width: 90%;
+	margin-left: 5%;
+}
+section.why h2 {
+	margin-bottom: 2%;
+	padding-top: 1.5%;
+}
+section.why li{
+	font-size: 1.7em;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 1%;
+	font-family: 'Fresca', sans-serif;
+}
+/*rent styles*/
+.renth2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.rentfig {
+	width: 50%;
+	margin-left: 3em;
+	float: right;	
+}
+.rentfig figcaption {
+	margin-bottom: 4%;
+	font-family: 'Fresca', sans-serif;
+	font-size: 1.3em;
+}
+section h3 {
+	margin-top: 0.8em;
+	cursor: pointer;
+	margin-left: 20%;
+	font-size: 2em;
+	font-family: 'Fresca', sans-serif;
+}
+.monopoly p {
+	width: 26%;
+}
+section p {
+   display: none;
+   margin-left: 20%;
+   font-size: 1.5em;
+	font-family: 'Fresca', sans-serif;
+	width: 25%;
+	margin-bottom: 2%;
+}
+.monopoly a:link, .risk a:link, .life a:link {
+	
+	color: #000000;
+}
+.monopoly a:visited, .monopoly a:hover, .monopoly a:active, .risk a:visited, .risk a:hover, .risk a:active, .life a:visited, .life a:hover, .life a:active {
+	color: #000000;
+}
+/*rentform styles*/
+.date-picker label {
+	position: absolute;
+	left: -10000px;
+}
+form {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+}
+.feedbackh2 {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.contactinfo legend, .orderinfo > legend{
+	
+	font-weight: bold;
+	font-size: 1.8em;
+	font-family: 'Fresca', sans-serif;
+}
+.contactinfo label {
+	font-size: 1.2em;
+	font-family: 'Fresca', sans-serif;
+	display: block;
+}
+.game legend, .collection legend, .payment legend, .schedule legend, .days legend {
+	font-size: 1.5em;
+	font-family: 'Fresca', sans-serif;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+.game label, .collection label, .payment label, .schedule label {
+	font-size: 1.2em;
+	font-family: 'Fresca', sans-serif;
+	padding-left: 2%;
+	
+}
+#nameinput {
+	margin-left: 3.2%;
+	margin-right: 5%;
+	border: 1px solid grey;
+	padding-left: 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 20%;
+}
+#emailinput {
+	margin-left: 3.5%;
+	border: 1px solid grey;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 1%;
+	width: 20%;
+}
+#phoneinput {
+	margin-left: 3%;
+	border: 1px solid grey;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 20%;
+}
+#submit {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1%;
+	border-radius: 15px;
+	margin-top: 2%;
+	margin-left: 20%;
+}
+.submitbutton {
+	display: none;
+}
+/*instructions styles*/
+.instruction{
+	display: inline-block;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: #e6e6ff;
+	margin-left: 10%;
+	font-size: 1.5em;
+	margin-top: 4%;
+	margin-bottom: 0%;
+}
+.instructionh2 {
+	margin-top: 2%;
+	margin-bottom: 0%;
+}
+figcaption{
+	color: #000000;
+	font-family: 'Fresca', sans-serif;
+	padding-bottom: 1%;
+}
+/*monopolyinstructions styles*/
+#instructionheader, #rinstructionheader, #linstructionheader {
+	font-size: 2em;
+	margin-left: 10%;
+	font-weight: bold;
+	margin-bottom: 1%;
+	font-family: 'Zilla Slab', serif;
+}
+.playmonopoly h2, .bank h2, .playm h2, .chancem h2, .jailm h2, .winm h2 {
+	text-align: left;
+	margin: 0;
+}
+.playm h2, .chancem h2, .jailm h2, .winm h2 {
+	font-size: 1em;
+}
+.bank h2 {
+	font-size: 1.5em;
+}
+.playmonopoly {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 1%;
+	background-color: #e6e6ff;
+}
+.moneyp {
+	font-size: 1.5em;
+	font-family: 'Fresca', sans-serif;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 1%;
+}
+table {
+	font-size: 1.5em;
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding-left: 2%;
+	width: 98%;
+	margin-bottom: 1%;
+}
+th, td {
+	border: 1px solid black;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+	font-family: 'Fresca', sans-serif;
+}
+th{
+	background-color: #ccccff;
+}
+.hide {
+	display: none;
+	font-size: 1.5em;
+	font-family: 'Fresca', sans-serif;
+}
+.bank {
+	background-color: #e6e6ff;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	font-size: 1em;
+	padding: 1%;
+	font-family: 'Fresca', sans-serif;	
+}
+.bank ol {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+}
+.bank li {
+	padding: 0;
+	margin-left: 5%;
+}
+.playm, .chancem, .jailm, .winm {
+	background-color: #e6e6ff;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	font-size: 1.5em;
+	padding: 1%;
+	font-family: 'Fresca', sans-serif;
+}
+.winm {
+	margin-bottom: 2%;
+}
+.playm p, .chancem p, .jailm p, .winm p {
+	display: block;
+	font-size: 1em;
+	margin: 0;
+	width: 98%;
+}
+#go, #jail {
+	float: right;
+	clear: left;
+	margin-right: 3%;
+}
+#gojail {
+	float: right;
+	clear: left;
+	margin-right: 5%;
+}
+div.backbutton {
+	font-size: 1.5em;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	border: 1px solid #000000;
+	width: 7%;
+	border-radius: 25px;
+	text-align: center;
+}
+div.backbutton a:link {
+		text-decoration: none;
+	}
+div.backbutton a:visited, div.backbutton a:hover, div.backbutton a:active {
+	color: #000000;
+}
+/*riskinstructions styles */
+.rsetup, .rterritory, .cards {
+	/*font-size: 1.5em;*/
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#e6e6ff;
+	padding: 1%;
+	width:78%;
+	font-family: 'Fresca', sans-serif;
+}
+.rsetup {
+	margin-bottom: 2%;
+}
+.rterritory, .cards {
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+.rsetup h2, .rterritory h2, .cards h2, .lsetup h2, .lplay h2, .tilecolours h2, .lwin h2  {
+	text-align: left;
+	padding-left: 1%;
+	margin: 0;
+	font-size: 1.5em;
+}
+.rterritory h2 {
+	padding-bottom: 1%;
+}
+.riskplayers li {
+	font-size: 1.3em;
+	margin: 0;
+	font-family: 'Fresca', sans-serif;
+	width: 95%;
+	margin-left: 5%;
+}
+.rterritory p, .cards p, .lsetup p, .lplay p, .tilecolours p, .lwin p {
+	display: block;
+	font-size: 1.3em;
+	font-family: 'Fresca', sans-serif;
+	margin: 0;
+	width: 98%;
+	padding-left: 1%;
+}
+.cards p a:visited, .cards p a:hover, .cards p a:active {
+	color: #000000;
+}
+/*lifeinstructions styles*/
+.lsetup, .lplay, .tilecolours, .lwin{
+	margin-left:10%;
+	margin-right:10%;
+	background-color: #e6e6ff;
+	padding: 0.5%;
+	margin-bottom: 1%;
+	font-family: 'Fresca', sans-serif;
+}
+.lsetup li {
+	font-size: 1.3em;
+}
+.lsetup p a:visited, .lsetup p a:hover, .lsetup p a:active {
+	color: #000000;
+}
+/*faq styles */
+.faqh2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+#accordion {
+	width: 60%;
+	margin-left: 20%;
+}
+.title {
+	font-size: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Fresca', sans-serif;
+	background-color: #ccccff;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}
+.title:hover, .title.active {
+	background-color:#99e6ff;
+}
+.content {
+	font-size: 1.5em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Fresca', sans-serif;
+	margin-bottom: 1%;
+	background-color:  #e6e6ff;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+/*feedback styles*/
+.feedbackh2 {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.feedbackmsg legend {
+	font-weight: bold;
+	font-size: 1.8em;
+	font-family: 'Fresca', sans-serif;
+	padding-top: 2%;
+}
+.feedbackmsg label {
+	font-size: 1.2em;
+	font-family: 'Fresca', sans-serif;
+	margin-bottom: 2%;
+}
+textarea {
+	border: 1px solid #ccc;
+}
+#feedback {
+	margin-left: 3%;
+	margin-top: 2%;
+}
+.show {
+	display: block;
+}
+/*contactus styles*/
+.contactush2 {
+	margin-top: 3%;
+}
+.contactusp {
+	font-size: 2em;
+	margin: 5%;
+	padding-left: 10%;
+	font-family: 'Fresca', sans-serif;
+	width: 30%;
+	margin-bottom: 5%;
+} 
+
+#map a:visited, #map a:link  {
+	color: #000000;
+}
+#map a:active {
+	color: #000000;
+	position: relative;
+	bottom: 1%;
+	left: 1%;
+}
+#map a:hover, #map a:focus {
+   color: #000000;
+}
+.number {
+	width: 20%;
+}
+#map {
+	float: right;
+	margin-right: 20%;
+	margin-top: 5%;
+}
+#map figcaption {
+	font-family: 'Fresca', sans-serif;
+	font-size: 1.8em;
+}
+.emailcontact {
+	display: block;
+}
+/*results styles*/
+.results p, .results h3{
+	margin-left: 10%;
+	
+}
+.resultsh2 {
+	padding: 2%;
+}
+/*footer styles*/
+footer#indexfooter, #aboutusfooter, #rentfooter, #instructionfooter, #faqfooter {
+	max-width: 100%;
+	color: #000000;
+	background-color: #ccebff; 
+	padding-top: 1%;
+	padding-left: 67%;
+	padding-right: 2%; 
+	padding-bottom: 1%;
+	font-size: 1.5em;
+	text-align: right;
+}
+footer#indexfooter, #aboutusfooter{
+	margin-top: 4.5%;
+}
+#rentfooter {
+	margin-top: 7%;
+}
+#instructionfooter {
+	margin-top: 5.7%;
+}
+#faqfooter {
+	margin-top: 5%;
+}
+@media screen and (max-width: 480px) {
+	div.navigation-menu-button {
+		display: block;
+		float: right;
+	}
+	div.navigation-menu-button img {
+		z-index: 1;
+	}
+	nav.sitenavigation ul{
+		display: none;
+		width: 30%;
+		background-color: #000000;
+		float: right;
+		z-index: 2;
+		position: absolute;
+		top: 24.5%;
+		right: 0%;
+	}
+	nav.sitenavigation li {
+		display: block;
+		background-color: #000000;
+	}
+	#logo {
+		display: none;
+	}
+	/*index styles mobile responsive */
+	.bestsellerpg1 {
+		padding-left: 0;
+		padding-bottom: 4%;
+	}
+	p#bestsellerrisk {
+		width: 79%;
+		padding: 1%;
+		margin-top: 3%;
+		margin-left: 10%;
+		clear: left;
+	}
+	p#bestsellermonopoly {
+		padding-left: 1%;
+		clear: left;
+		width: 79%;
+		margin-left: 10%;
+		margin-right: 0;
+	}
+	/*rent styles mobile responsive*/
+	.rentfig {
+		float: left;
+		clear: right;
+		margin-left: 20%;
+	}
+	.monopoly, .risk, .life {
+		clear: left;
+	}
+	.monopoly p, .risk p, .life p {
+		width: 70%;
+	}
+	/*rentform styles mobile responsive*/
+	#nameinput, #emailinput, #phoneinput {
+		width: 80%;
+	}
+	.contactinfo input {
+		display: block;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	/*monopolyinstructions styles mobile responsive */
+	#jail, #gojail, #go {
+		display: none;
+	}
+	div.backbutton {
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 5%;
+	border-radius: 25px;
+	text-align: center;
+	}
+	table {
+		display: none;
+	}
+	.hide {
+		display: block;
+		margin-left: 10%;
+	}
+	/*riskinstructions styles mobile responsive*/
+	.rsetup, .rterritory, .cards {
+		padding-left: 4%;
+		padding-right: 2%;
+	}
+	.rsetup li, .rterritory p, .cards p {
+		width: 79%;
+	}
+	/*lifeinstructions styles mobile responsive*/
+	.lplay p, .tilecolours p, .lwin p{
+		padding-left: 5%;
+		width: 95%;
+	}
+	/*faq styles mobile responsive*/
+	#accordion {
+		margin: 0 auto;
+		width: 80%;
+	}
+	/*feedback styles mobile responsive*/
+	textarea {
+		width: 80%;
+	}
+	/*contactus styles mobile responsive*/
+	.contactusp {
+		width: 80%;
+	}
+	.number {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 880px) {
+	div.navigation-menu-button {
+		display: block;
+		float: right;
+	}
+	div.navigation-menu-button img {
+		z-index: 1;
+	}
+	nav.sitenavigation ul{
+		display: none;
+		width: 30%;
+		background-color: #000000;
+		float: right;
+		z-index: 2;
+		position: absolute;
+		top: 20%;
+		right: 0%;
+	}
+	nav.sitenavigation li {
+		display: block;
+		background-color: #000000;
+	}
+	/*index styles mobile responsive*/
+	p#bestsellerrisk {
+		width: 79%;
+		padding: 1%;
+		margin-top: 3%;
+		margin-left: 10%;
+		clear: left;
+		
+	}
+	p#bestsellermonopoly {
+		padding-left: 1%;
+		clear: left;
+		width: 79%;
+		margin-left: 10%;
+		margin-right: 0;
+	}
+	.bestsellerpg1 {
+		margin-bottom: 2%;
+	}
+	/*rentform styles mobile responsive*/
+	#nameinput, #emailinput, #phoneinput {
+		width: 40%;
+	}
+	/*instructions styles mobile responsive*/
+	.instruction {
+		display: block;
+		margin-right: 10%;
+	}
+	div.backbutton {
+		width: 10%;
+		padding-bottom: 0.5%;
+		padding-top: 0.5%;
+	}
+	
+	/*contactus styles mobile responsive*/
+	.number {
+		width: 28%;
+	}
+}

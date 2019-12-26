@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Rent BG- Results</title>
+      <!-- 
+         Rent BG Results page
+         Filename: results.html
+		 Name: Foo Tze Ern, Shirlyn
+		 Admission number: 1714823
+	     Class: DBIT/FT/1A/01     
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+	  <script src="modernizr.custom.62074.js"></script>
+	  <link rel="stylesheet" href="styles.css">
+      <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+      <link rel="shortcut icon" href="images/favicon.ico">
+	  <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+   </head>
+   <body>
+      <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+      <header>
+		  <h1>RENT BOARD GAMES</h1>
+		  <a href="index.html"><img id="logo" src="images/logoedited3.png" width="80" height="80" alt="Rent BG"></a>
+	  </header>
+      <nav class="sitenavigation">
+		<div class="navigation-menu-button">
+		<img src="images/menuedited.png" width="63" height="57" alt="Click to view navigation menu">
+	    </div>
+		  <ul>
+		   <li><a href="index.html"> Home </a></li>
+		   <li><a href="aboutus.html"> About Us </a></li>
+		   <li><a href="rent2.html"> Rent Now </a></li>
+		   <li><a href="instructions.html"> Instructions </a></li>
+		   <li><a href="faq.html"> FAQs </a></li> 
+		   <li><a href="feedback.html"> Feedback </a></li>
+		   <li><a href="contactus.html"> Contact Us </a></li>
+		  </ul>
+	 </nav>
+      <article id="contentstart">
+         <div class="container">
+            <h2 class="resultsh2">Your form has been submitted</h2>
+            <div class="results">
+               <h3>You entered the following data:</h3>
+         
+               <script>
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+               </script>
+            </div>
+         </div>
+      </article>
+	  <footer id="aboutusfooter">
+	    <p> Rent BG </p>
+		<p> 6775 1133 </p>
+	    <p> 500 Dover Road Singapore 139651</p>
+	  </footer>	
+	  <script src="defaultnav.js"></script>
+   </body>
+</html>
